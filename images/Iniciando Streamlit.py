@@ -6,24 +6,24 @@ import time  # Para simular um carregamento mais longo
 
 # Dicionário para armazenar os caminhos dos seus gráficos
 graficos = {
-    "Gráfico de Análise_Python 1": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_1.png",
-    "Gráfico de Análise_Python 2": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_2.png",
-    "Gráfico de Análise_Python 3": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_3.png",
-    "Gráfico de Análise_Python 4": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_4.png",
-    "Gráfico de Análise_Python 5": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_5.png",
-    "Gráfico de Análise_Python 6": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_6.png",
-    "Gráfico de Análise_Python 7": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_7.png",
+    "Fabricante/Modelo - Total de Ocorrências": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_1.png",
+    "Top 12 Tipos de Ococrrências": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_2.png",
+    "Top 12 Municipios/UF - Total de Ocorrências": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_3.png",
+    "Fabricante/Modelo - Tipos de Ocorrência": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_4.png",
+    "Dados Estatísticos por Dia/Ano": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_5.png",
+    "Tendência/Previsão - Total de Ocorrências": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_6.png",
+    "Total de Ocorrências por Ano": r"C:\Users\usuario\Documents\Faculdade Senac_2025\Introducao Estatistica\Projeto_ANAC\images\Grafico_7.png",
 }
 
 # Dicionário para armazenar informações adicionais sobre os gráficos
 info_graficos = {
-    "Gráfico de Análise_Python 1": "Este gráfico mostra a distribuição de passageiros ao longo do tempo, destacando tendências sazonais e crescimento anual.",
-    "Gráfico de Análise_Python 2": "Aqui podemos observar a comparação entre diferentes tipos de voos (domésticos vs. internacionais) em termos de volume e frequência.",
-    "Gráfico de Análise_Python 3": "Este gráfico detalha a taxa de ocupação das aeronaves por região do Brasil, indicando a demanda em diferentes mercados.",
-    "Gráfico de Análise_Python 4": "Informações sobre o volume de bagagem despachada por voo, com insights sobre possíveis variações por rota ou época do ano.",
-    "Gráfico de Análise_Python 5": "Análise da satisfação dos clientes em relação aos serviços de bordo, com métricas e categorias de avaliação.",
-    "Gráfico de Análise_Python 6": "Este gráfico apresenta a frequência de atrasos em diferentes aeroportos, identificando possíveis gargalos na operação.",
-    "Gráfico de Análise_Python 7": "Visão geral do crescimento do número de voos nos últimos anos, ilustrando a expansão do setor aéreo.",
+    "Fabricante/Modelo - Total de Ocorrências": "Este gráfico mostra o total de ocorrências que envolveram os fabricantes e seus modelos.",
+    "Top 12 Tipos de Ococrrências": "Este gráfico mostra os 12 tipos de ocorrências com maior índice.",
+    "Top 12 Municipios/UF - Total de Ocorrências": "Este gráfico mostra os 12 municípios/UF com maior incidência de ocorrências.",
+    "Fabricante/Modelo - Tipos de Ocorrência": "Este gráfico mostra os fabricantes e seus modelos com maior índice por tipo de ocorrência.",
+    "Dados Estatísticos por Dia/Ano": "Gráficos com dados estatísticos de ocorrências diárias ao longo dos anos (2014 até 2024)",
+    "Tendência/Previsão - Total de Ocorrências": "Gráfico que representa uma tendência (previsão) de ocorrências até o ano de 2026",
+    "Total de Ocorrências por Ano": "Este gráfico mostra o total de ocorrências por ano.",
 }
 
 # Dicionário de usuários e senhas (EM TEXTO PLANO - PARA DEMONSTRAÇÃO, NÃO USE EM PRODUÇÃO)
